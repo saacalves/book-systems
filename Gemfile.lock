@@ -73,6 +73,8 @@ GEM
       activesupport (>= 5.0)
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
+    jbuilder (2.11.3)
+      activesupport (>= 5.0.0)
     jwt (1.5.6)
     knock (2.1.1)
       bcrypt (~> 3.1)
@@ -156,10 +158,11 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.4.4)
   byebug
+  jbuilder (~> 2.7)
   jwt
   knock
   listen (~> 3.3)
-  pg (~> 1.2.3)
+  pg (~> 1.1)
   puma (~> 5.0)
   rack-cors
   rails (~> 6.1.4, >= 6.1.4.1)

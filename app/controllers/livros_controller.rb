@@ -4,8 +4,8 @@ class LivrosController < ApplicationController
   # GET /livros
   def index
     @livros = Livro.all
-
-    render json: @livros
+    #render 'livros/index.json.jbuilder'
+    #render json: @livros
   end
 
   # GET /livros/1
