@@ -4,6 +4,8 @@ class LivrosController < ApplicationController
   # GET /livros
   def index
     @livros = Livro.all
+    render json: { data: @livros }, status: :ok
+    
   end
 
   # GET /livros/1
